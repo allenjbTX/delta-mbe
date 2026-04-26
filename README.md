@@ -22,14 +22,14 @@ delta-mbe/
 │   └── order_4.npz           # 4-body delta training data
 for 1-body model
 ├── order1/
-│   └── config.txt            # PhysNet hyperparameters for 2-body model
+│   └── config.txt            # PhysNet hyperparameters
 ├── order2/
-│   └── config.txt            # PhysNet hyperparameters for 3-body model
+│   └── config.txt            # PhysNet hyperparameters
 ├── order3/
-│   └── config.txt            # PhysNet hyperparameters 
+│   └── config.txt            # PhysNet hyperparameters
 for 4-body model
 ├── order4/
-│   └── config.txt            # PhysNet hyperparameters 
+│   └── config.txt            # PhysNet hyperparameters
 PhysNet_f32f64/
 ├── f32/                  # Single-precision PhysNet (training + evaluation)
 │   ├── train/
