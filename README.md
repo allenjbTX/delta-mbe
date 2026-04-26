@@ -6,7 +6,7 @@ Neural network models for delta-learning corrections to water cluster energies u
 
 The total energy correction is decomposed via MBE:
 
-$$\Delta E = \sum_i \Delta E_i^{(1)} + \sum_{i\lt j} \Delta E_{ij}^{(2)} + \sum_{i\lt j\lt k} \Delta E_{ijk}^{(3)} + \cdots$$
+$$ E = \sum_i E_i + \sum_{i\lt j} \Delta E_{ij} + \sum_{i\lt j\lt k} \Delta E_{ijk} + \cdots$$
 
 where each term is the difference between BH&H-LYP/aTZ and DFTB+ for that n-body subsystem. A PhysNet model is trained independently for each order, enabling scalable high-accuracy molecular dynamics at DFTB+ speed with corrections toward the DFT reference.
 
